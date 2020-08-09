@@ -7,7 +7,7 @@ let img = document.querySelector("img")
 
 button.addEventListener("click",() => {
     button.disabled = true
-    let value = Array.from(input.value)
+    let value = Array.from(input.value.toUpperCase())
     let i = 0
     let interval = setInterval(() => {
         if(i < value.length){
