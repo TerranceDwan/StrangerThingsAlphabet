@@ -12,7 +12,6 @@ button.addEventListener("click",() => {
     let interval = setInterval(() => {
         if(i < value.length){
             img.src = "StrangerThingsPhotos/" + value[i] + ".jpg"
-            console.log("x")
             i++
             console.log(i)
         } else {
